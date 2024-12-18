@@ -1,8 +1,7 @@
 import React from 'react'
-// import logo from '../images/logo.png'
-import Button from '../components/Button'
 import Hero from '../components/Hero'
 import { NavLink } from "react-router";
+import CustomButton from '../components/CustomButton/CustomButton';
 
 export default function Header() {
   return (
@@ -16,7 +15,7 @@ export default function Header() {
         <div className="container">
 
           <div className='logo'>
-            <img src="/images/logo.png" alt="Logo" />
+            <img src="/images/logo.png" alt="Logo"/>
             <h1>Canvix</h1>
           </div>
 
@@ -29,7 +28,7 @@ export default function Header() {
           </nav>
 
           <div className="nav-btn">
-            <Button label="Get in touch" />
+            <CustomButton label="Get in touch"  className="secondary-button"/>
           </div>
 
         </div>

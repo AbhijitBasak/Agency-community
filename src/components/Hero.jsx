@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './Button'
+import CustomButton from './CustomButton/CustomButton'
 
 import { FaCircleChevronRight } from "react-icons/fa6";
 import { GiChestnutLeaf } from "react-icons/gi";
@@ -27,7 +27,7 @@ export default function Hero() {
             </p>
 
             <div className="hero-btn">
-              <Button icon={<FaCircleChevronRight />} label="Start your Free Trial" />
+              <CustomButton icon={<FaCircleChevronRight />} label="Start your Free Trial"  className="secondary-button"/>
             </div>
 
             <div className="brand-logo">

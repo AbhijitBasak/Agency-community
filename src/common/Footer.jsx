@@ -1,5 +1,6 @@
 import React from 'react'
-import Button from '../components/Button'
+import CustomButton from '../components/CustomButton/CustomButton'
+
 
 export default function Footer() {
   return (
@@ -54,7 +55,7 @@ export default function Footer() {
                   placeholder="Enter your email here"
                   className="email-input"
                 />
-                <Button label="Subscribe" backgroundColor="black" textColor="#fff"/>
+                <CustomButton label="Subscribe" className="secondary-button" />
               </div>
 
             </div>
