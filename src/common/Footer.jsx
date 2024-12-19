@@ -67,9 +67,9 @@ export default function Footer() {
             <p>Contact Us: +1 (452) 4529</p>
             <p>Address: 99 Springfield Ldn, Dayton 414, 85060</p>
             <div className="social-icons">
-              <span>🔗</span>
-              <span>🔗</span>
-              <span>🔗</span>
+              <span><img src="/images/Facebook.png" alt="social" /></span>
+              <span><img src="/images/Insta.png" alt="social" /></span>
+              <span><img src="/images/Linkdin.png" alt="social" /></span>
             </div>
           </div>
         </div>
